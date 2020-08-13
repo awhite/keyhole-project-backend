@@ -11,7 +11,7 @@
     "@babel/preset-env": "^7.4.4"
   },
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node"
+    "start": "babel-node src/index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
